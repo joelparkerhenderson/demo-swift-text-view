@@ -1,6 +1,15 @@
 # Demo Swift Text View
 
-This is a demonstration of Apple iOS Xcode using the Swift language to create a project with a view, and a text view wired up with an IBOutlet and layout constraints.
+This demonstrations shows:
+
+  * The [Swift](http://swift.org) programming language with
+    [Apple](http://apple.com) 
+    [iOS](http://www.apple.com/ios/) 
+    [Xcode](https://developer.apple.com/xcode/)
+
+  * How to create a project with a view.
+
+  * Hot to create a text view wired up with an IBOutlet and layout constraints.
 
 This README describes how to create the project, if you want to try doing it yourself.
 
