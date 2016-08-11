@@ -140,8 +140,8 @@ The ViewController.swift code complete source looks like this:
 ## Tracking
 
 * Package: demo_swift_text_view
-* Version: 1.0.0
+* Version: 1.0.1
 * Created: 2016-04-09
-* Updated: 2016-04-28
-* License: GPL
+* Updated: 2016-08-11
+* License: BSD, GPL, MIT
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
