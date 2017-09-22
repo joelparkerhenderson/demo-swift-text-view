@@ -41,11 +41,11 @@ To use this project:
 
 1. You see the dialog "Choose options for your new project".
 
-    * For "Product Name", type "Demo Swift Hello World".
+    * For "Product Name", type "Demo Swift Text View".
 
-    * For "Organization Name", type anything you want; typically this is your company's name, or team's name, or similiar. For example, "Example Company".
+    * For "Organization Name", type anything you want. Typically this is your company's name, or team's name, or similiar. For example, "Example Company".
 
-    * For "Organization Identifier", type anything you want; typically this is your company's reverse domain name. For example, "com.example".
+    * For "Organization Identifier", type anything you want. Typically this is your company's reverse domain name. For example, "com.example".
 
     * Tap the button "Next".
 
