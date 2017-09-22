@@ -47,7 +47,7 @@ Pods/
 
 ## Carthage
 #*/Carthage/Checkouts
-#*/Carthage/Buildg
+#*/Carthage/Build
 
 ## Fastlane
 fastlane/report.xml
