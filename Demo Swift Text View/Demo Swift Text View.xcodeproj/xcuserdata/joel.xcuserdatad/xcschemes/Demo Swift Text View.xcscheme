@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D7B491A1CD2E27E00702D04"
+               BlueprintIdentifier = "5DDFF7921F74EBEF006E4FAE"
                BuildableName = "Demo Swift Text View.app"
                BlueprintName = "Demo Swift Text View"
                ReferencedContainer = "container:Demo Swift Text View.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D7B49311CD2E27F00702D04"
+               BlueprintIdentifier = "5DDFF7A61F74EBEF006E4FAE"
                BuildableName = "Demo Swift Text ViewTests.xctest"
                BlueprintName = "Demo Swift Text ViewTests"
                ReferencedContainer = "container:Demo Swift Text View.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D7B493C1CD2E27F00702D04"
+               BlueprintIdentifier = "5DDFF7B11F74EBEF006E4FAE"
                BuildableName = "Demo Swift Text ViewUITests.xctest"
                BlueprintName = "Demo Swift Text ViewUITests"
                ReferencedContainer = "container:Demo Swift Text View.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D7B491A1CD2E27E00702D04"
+            BlueprintIdentifier = "5DDFF7921F74EBEF006E4FAE"
             BuildableName = "Demo Swift Text View.app"
             BlueprintName = "Demo Swift Text View"
             ReferencedContainer = "container:Demo Swift Text View.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D7B491A1CD2E27E00702D04"
+            BlueprintIdentifier = "5DDFF7921F74EBEF006E4FAE"
             BuildableName = "Demo Swift Text View.app"
             BlueprintName = "Demo Swift Text View"
             ReferencedContainer = "container:Demo Swift Text View.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D7B491A1CD2E27E00702D04"
+            BlueprintIdentifier = "5DDFF7921F74EBEF006E4FAE"
             BuildableName = "Demo Swift Text View.app"
             BlueprintName = "Demo Swift Text View"
             ReferencedContainer = "container:Demo Swift Text View.xcodeproj">

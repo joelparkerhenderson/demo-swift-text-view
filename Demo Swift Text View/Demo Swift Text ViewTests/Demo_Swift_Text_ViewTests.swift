@@ -2,8 +2,8 @@
 //  Demo_Swift_Text_ViewTests.swift
 //  Demo Swift Text ViewTests
 //
-//  Created by Joel Parker Henderson on 2016-04-28.
-//  Copyright © 2016 Joel Parker Henderson. All rights reserved.
+//  Created by Joel on 9/22/17.
+//  Copyright © 2017 JoelParkerHenderson.com. All rights reserved.
 //
 
 import XCTest
@@ -28,7 +28,7 @@ class Demo_Swift_Text_ViewTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
