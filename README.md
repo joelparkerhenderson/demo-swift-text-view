@@ -33,55 +33,55 @@ To use this project:
 
 1. You see the dialog "Choose a template for your new project".
 
-  * Choose the "iOS" radio button.
+    * Choose the "iOS" radio button.
 
-  * Choose the "Single View Application" icon.
+    * Choose the "Single View Application" icon.
 
-  * Tap the button "Next".
+    * Tap the button "Next".
 
 1. You see the dialog "Choose options for your new project".
 
-  * For "Product Name", type "Demo Swift Hello World".
+    * For "Product Name", type "Demo Swift Hello World".
 
-  * For "Organization Name", type anything you want; typically this is your company's name, or team's name, or similiar. For example, "Example Company".
+    * For "Organization Name", type anything you want; typically this is your company's name, or team's name, or similiar. For example, "Example Company".
 
-  * For "Organization Identifier", type anything you want; typically this is your company's reverse domain name. For example, "com.example".
+    * For "Organization Identifier", type anything you want; typically this is your company's reverse domain name. For example, "com.example".
 
-  * Tap the button "Next".
+    * Tap the button "Next".
 
 1. You see the file chooser.
 
-  * Choose where to save your project.
+    * Choose where to save your project.
 
-  * Tap the button "Create".
+    * Tap the button "Create".
 
-  * Xcode creates the project.
+    * Xcode creates the project.
 
 
 ## How to sign the project
 
 1. If Xcode shows a "Signing" area with a "Status" alert icon, here's how to solve it.
 
-  * Xcode may show a message such as "Signing for "Demo Swift Hello World" requires a development team. Select a development team in the project editor."
+    * Xcode may show a message such as "Signing for "Demo Swift Hello World" requires a development team. Select a development team in the project editor."
 
-  * In the same "Signing" section, choose the "Team" dropdown, and choose your Apple ID.
+    * In the same "Signing" section, choose the "Team" dropdown, and choose your Apple ID.
 
-  * If there's no Apple ID, then you need to add yours: Xcode → Preferences → Accounts → the "+" button → Add Apple ID
+    * If there's no Apple ID, then you need to add yours: Xcode → Preferences → Accounts → the "+" button → Add Apple ID
 
 
 ## How to run
 
 1. Run the project.
 
-  * Xcode → Product → Run
+    * Xcode → Product → Run
 
-  * This is simply to verify that the project runs so far.
+    * This is simply to verify that the project runs so far.
 
 1. The Simulator launches.
 
-  * The Simulator shows a blank screen.
+    * The Simulator shows a blank screen.
 
-  * Quit the Simulator and go back to using Xcode.
+    * Quit the Simulator and go back to using Xcode.
 
 
 ## How to create the text view
@@ -89,67 +89,67 @@ To use this project:
 
 1. Open the view.
 
-  * In the left Xcode column, Tap the icon "Main.storyboard".
+    * In the left Xcode column, Tap the icon "Main.storyboard".
 
-  * In the next Xcode column, Tap the icon "View Controller Scene", then "View Controller", then "View".
+    * In the next Xcode column, Tap the icon "View Controller Scene", then "View Controller", then "View".
 
-  * In the central Xcode column, you see the "View Controller" layout area, and the view box is all blue, which means it is selected.
+    * In the central Xcode column, you see the "View Controller" layout area, and the view box is all blue, which means it is selected.
 
 1. Add a text view.
 
-  * In the lower-right Xcode area, there is a library picker, with four icons that have rollover tool tips: "Show the File Template library", "Show the Code Snippet library", "Show the Object library", "Show the Media library".
+    * In the lower-right Xcode area, there is a library picker, with four icons that have rollover tool tips: "Show the File Template library", "Show the Code Snippet library", "Show the Object library", "Show the Media library".
 
-  * Tap the circle icon "Show the Object Library".
+    * Tap the circle icon "Show the Object Library".
 
-  * Drag-and-drop the "Text View" item to the middle of the View Controller layout area.
+    * Drag-and-drop the "Text View" item to the middle of the View Controller layout area.
 
 
 ## How to create constraints
 
 1. Enlarge the text view by adding contraints.
 
-  * Control-tap-press the text view, and drag left. This pops up a menu. Choose "Leading Space to Container Margin". Tap the constraint line. Edit the "Constant" field to be 0.
+    * Control-tap-press the text view, and drag left. This pops up a menu. Choose "Leading Space to Container Margin". Tap the constraint line. Edit the "Constant" field to be 0.
 
-  * Control-tap-press the text view, and drag right. This pops up a menu. Choose "Trailing Space to Container Margin". Tap the constraint line. Edit the "Constant" field to be 0.
+    * Control-tap-press the text view, and drag right. This pops up a menu. Choose "Trailing Space to Container Margin". Tap the constraint line. Edit the "Constant" field to be 0.
 
-  * Control-tap-press the text view, and drag up. This pops up a menu. Choose "Vertical Spacing to Top Layout Guide". Tap the constraint line. Edit the "Constant" field to be 0.
+    * Control-tap-press the text view, and drag up. This pops up a menu. Choose "Vertical Spacing to Top Layout Guide". Tap the constraint line. Edit the "Constant" field to be 0.
 
-  * Control-tap-press the text view, and drag down. This pops up a menu. Choose "Bottom Spacing to Bottom Layout Guide". Tap the constraint line. Edit the "Constant" field to be 0.
+    * Control-tap-press the text view, and drag down. This pops up a menu. Choose "Bottom Spacing to Bottom Layout Guide". Tap the constraint line. Edit the "Constant" field to be 0.
 
 1. Update.
 
-  * In the central Xcode column, in the lower right area, tap the icon that is a refresh circle arrow, with the tool tip "Update Frames".
+    * In the central Xcode column, in the lower right area, tap the icon that is a refresh circle arrow, with the tool tip "Update Frames".
 
-  * You see the text view change size to be its correct size, which is flush with the view and its margins.
+    * You see the text view change size to be its correct size, which is flush with the view and its margins.
 
 
 ## Create the IBOutlet
 
 1. Look in the right place.
 
-  * Open your storyboard, `Main.storyboard`.
+    * Open your storyboard, `Main.storyboard`.
 
-  * Tap the Assistant button in the Xcode toolbar near the top right corner of Xcode to open the assistant editor.
+    * Tap the Assistant button in the Xcode toolbar near the top right corner of Xcode to open the assistant editor.
 
-  * In the editor selector bar, which appears at the top of the assistant editor, the assistant editor text should say "Automatic → ViewController.swift". If the text is different, such as saying "Preview", then tap the text to change it.
+    * In the editor selector bar, which appears at the top of the assistant editor, the assistant editor text should say "Automatic → ViewController.swift". If the text is different, such as saying "Preview", then tap the text to change it.
 
 1. Create a new IBOutlet and connect it.
 
-  * Control-drag from the text view on your canvas to the code display in the editor on the right, stopping the drag at the line below the line that starts with `class ViewController`.
+    * Control-drag from the text view on your canvas to the code display in the editor on the right, stopping the drag at the line below the line that starts with `class ViewController`.
 
-  * A dialog appears, that shows "Connection" is "Outlet", "Object" is "ViewController", "Name" is blank, "Type" is "UITextView", "Storage" is "Weak".
+    * A dialog appears, that shows "Connection" is "Outlet", "Object" is "ViewController", "Name" is blank, "Type" is "UITextView", "Storage" is "Weak".
 
-  * In the "Name" field, type `demoTextView`.
+    * In the "Name" field, type `demoTextView`.
 
-  * Tap Connect.
+    * Tap Connect.
 
 1. Xcode adds the necessary code.
 
-  * The code looks like this: `@IBOutlet weak var demoTextView: UITextView!`
+    * The code looks like this: `@IBOutlet weak var demoTextView: UITextView!`
 
-  * Xcode configures the storyboard to set up the connection.
+    * Xcode configures the storyboard to set up the connection.
 
-  * Xcode adds code to ViewController.swift to store a pointer to the text view.
+    * Xcode adds code to ViewController.swift to store a pointer to the text view.
 
 
 ## Say hello
@@ -166,13 +166,13 @@ To use this project:
 
 1. Run the project.
 
-  * Xcode → Product → Run
+    * Xcode → Product → Run
 
 1. The Simulator launches.
 
-  * The Simulator shows "Hello World".
+    * The Simulator shows "Hello World".
 
-  * Congratulations! You're successful!
+    * Congratulations! You're successful!
 
 
 ## Complete source
