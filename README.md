@@ -153,12 +153,13 @@ Xcode adds the necessary code.
 ## Say hello
 
 Edit the code of `ViewController.swift`, in the function `viewDidLoad`:
-	
-    override func viewDidLoad() {
-      super.viewDidLoad()
-      demoTextView.text = "Hello World"
-    }
 
+```swift
+override func viewDidLoad() {
+  super.viewDidLoad()
+  demoTextView.text = "Hello World"
+}
+```
 		
 ## Run
 
@@ -177,22 +178,24 @@ The Simulator launches.
 
 The ViewController.swift code complete source looks like this:
 
-	import UIKit
-		
-	class ViewController: UIViewController {
-		
-	  @IBOutlet weak var demoTextView: UITextView!
-	  
-	  override func viewDidLoad() {
-	    super.viewDidLoad()
-	    demoTextView.text = "Hello World"
-	  }
-		
-	  override func didReceiveMemoryWarning() {
-	    super.didReceiveMemoryWarning()
-	  }
-		
-	}
+```swift
+import UIKit
+
+class ViewController: UIViewController {
+
+  @IBOutlet weak var demoTextView: UITextView!
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    demoTextView.text = "Hello World"
+  }
+	
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+  }
+
+}
+```
 
 ## Tracking
 
