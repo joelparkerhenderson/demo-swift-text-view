@@ -13,19 +13,17 @@ This demonstrations shows:
 
   * How to create a text view that is wired up with an IBOutlet and with layout constraints.
 
-There are multiple git branches so pick the one you want:
+## Start
 
-  * master: current Swift, Xcode, iOS; equivalent to branch swift-4-xocde-9.
+To use this demo, you can clone this repo, or you can use this README to create your own project.
 
-  * swift-4-xcode-9: Swift version 4, Xcode version 9, iOS version 11.
+If you clone this repo, then be aware that there are multiple git branches, so pick the one you want.
 
-  * swift-3-xcode-8: Swift version 3, Xcode version 8, iOS version 10.
+  * **master**: current Swift, Xcode, iOS; currently same content as branch **swift-4-xocde-9**.
 
-To use this project:
+  * **swift-4-xcode-9**: Swift version 4, Xcode version 9, iOS version 11.
 
-  * You can clone this repo.
-
-  * Or you can create the project yourself by using this README that explains how to do it.
+  * **swift-3-xcode-8**: Swift version 3, Xcode version 8, iOS version 10.
 
 
 ## Create the project
